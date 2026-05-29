@@ -1,0 +1,32 @@
+experiments/
+results/
+outputs/
+output/
+multirun/
+/wandb/
+.mlflow/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.log_cache/
+__pycache__/
+tests/
+
+*egg-info/
+full_code*
+*.zip
+*.pth
+*.log
+*.ckpt
+*.png
+*.npz
+*.h5ad
+*.pt
+!data/*.h5ad
+# Large files and debugging notebooks
+notebooks/results_debugging/
+*.ipynb_checkpoints
+# Large notebook files (>50MB)
+*.large.ipynb
+scripts/**/scripts_traces/
+scripts/**/provenance_traces/

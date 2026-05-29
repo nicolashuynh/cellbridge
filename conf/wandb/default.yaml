@@ -1,0 +1,4 @@
+project: cellbridge-flow
+run_name: ${now:%Y-%m-%d}_${now:%H-%M-%S}_flow_matching
+offline: true
+log_model: false
